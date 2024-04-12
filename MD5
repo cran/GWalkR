@@ -1,11 +1,11 @@
-1c73cda2dd0c323af34b2f601468c114 *DESCRIPTION
+8971b3ecce3a873b0953926bb833afd4 *DESCRIPTION
 ed0030b1dfd176e72d620971d0583009 *NAMESPACE
 f76fefbf1eee82d02dc44edbfe70f0b6 *R/data_parser.R
 53adcb1cceaa2b850990f8255e6401b4 *R/gwalkr.R
-da56815871ae17e621fe9b49880edc35 *README.md
+410c16a9aaf8d336e042addec3ad6e97 *README.md
 eff1688a779838722525a5c4f2ed3ade *inst/htmlwidgets/gwalkr.js
 1ef3550c8f57559400d952af9bf3daac *inst/htmlwidgets/gwalkr.yaml
-8a3438e72e1bb9048048af7b7bdb7777 *inst/htmlwidgets/lib/gwalkr/gwalkr-app.iife.js
+f32531b37d34e626f0f4f4f9121d1cd7 *inst/htmlwidgets/lib/gwalkr/gwalkr-app.iife.js
 35bfa6488b99d5a25c2f8028f05f86c1 *inst/htmlwidgets/lib/gwalkr/style.css
 8e3a10e157f75ada21ab742c022d5430 *inst/htmlwidgets/lib/gwalkr/vite.svg
 ff016f657ed4b92aec775a6e9c62edf4 *man/gwalkr-shiny.Rd
