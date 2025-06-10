@@ -24,19 +24,29 @@ It can simplify your R data analysis and data visualization workflow, by turning
 
 ## Getting Started
 
-### Setup GWalkR
+### 📦 Setup GWalkR
 
 ```R
 install.packages("GWalkR")
 library(GWalkR)
 ```
 
-### Start Your Data Exploration in a Single Line of Code
+### 📈 Start Your Data Exploration in a Single Line of Code
 
 ```R
 data(iris)
 gwalkr(iris)
 ```
+
+### 🚀 Switch to Kernel Computation for Large Datasets
+
+```R
+gwalkr(large_df, kernelComputation = TRUE)
+```
+
+Here is a [tutorial](https://medium.com/@bruceyu0416/eda-reimagined-in-r-gwalkr-duckdb-for-lightning-fast-visualizations-05b011e8ae39) with more details.
+
+Please note that the kernel mode will be running in a Shiny app which will block your R console. You can stop the app to use the console.
 
 ## Main Features
 ### Get an overview of your data frame under 'Data' tab.
@@ -50,7 +60,7 @@ gwalkr(iris)
 
 ### Empower your R notebook (R Markdown).
 
-Showcase your data insights with editable and explorable charts on a webpage ([example](https://bruceyyu.github.io/show/tidytuesday_etymology.nb.html))!
+Showcase your data insights with editable and explorable charts on a webpage ([example](https://rpubs.com/brky/1083643))!
 
 <img width="700" alt="image" src="https://github.com/bruceyyu/GWalkR/assets/33870780/4798367c-0dd4-4ad3-b25b-7ea48b79205a">
 

@@ -1,6 +1,6 @@
 Package: GWalkR
 Title: Interactive Exploratory Data Analysis Tool
-Version: 0.2.0
+Version: 0.2.1
 Authors@R: c(
     person("Yue", "Yu", , "yue.yu@connect.ust.hk", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-9302-0793")),
@@ -12,11 +12,11 @@ Encoding: UTF-8
 RoxygenNote: 7.3.2
 URL: https://github.com/Kanaries/GWalkR/
 BugReports: https://github.com/Kanaries/GWalkR/issues
-Imports: htmlwidgets, jsonlite, openssl, shiny, shinycssloaders, DBI,
-        duckdb
+Imports: htmlwidgets, jsonlite, openssl, shiny, shinycssloaders, DBI
+Suggests: duckdb
 NeedsCompilation: no
-Packaged: 2024-10-02 02:55:11 UTC; bruceyu
-Author: Yue Yu [aut, cre] (<https://orcid.org/0000-0002-9302-0793>),
+Packaged: 2025-06-10 09:29:26 UTC; bruceyu
+Author: Yue Yu [aut, cre] (ORCID: <https://orcid.org/0000-0002-9302-0793>),
   Kanaries Data Inc. [cph, fnd]
 Repository: CRAN
-Date/Publication: 2024-10-02 04:20:02 UTC
+Date/Publication: 2025-06-10 09:50:02 UTC

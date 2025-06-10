@@ -71,8 +71,8 @@ gwalkr_kernel <- function(data, lang, dark, rawFields, visConfig, toolbarExclude
           name = 'gwalkr',
           x,
           package = 'GWalkR',
-          width='100%',
-          height='100%'
+          width = '100%',
+          height = '100%'
         )
       })
       session$onSessionEnded(function() {
